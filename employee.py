@@ -31,7 +31,7 @@ class Employee:
         else:
             return ''
 
-# depends the type of contract they have and what they have done in the past month
+# depends the type of contract they have and what they have done in the past month.
     def get_pay(self):
         return self.salary + (self.wage * self.hours) + self.bonus + (self.commission * self.commissionVal)
     
@@ -63,9 +63,9 @@ charlie = Employee('Charlie', 0, 100, 25, 0, 0, 0)
 # Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600.  Their total pay is 4200.
 ariel = Employee('Ariel', 0, 120, 30, 0, 0, 600)
 
-# print(billie._str_())
-# print(renee._str_())
-# print(robbie._str_())
-# print(jan._str_())
-# print(charlie._str_())
-# print(ariel._str_())
+print(billie._str_())
+print(renee._str_())
+print(robbie._str_())
+print(jan._str_())
+print(charlie._str_())
+print(ariel._str_())
